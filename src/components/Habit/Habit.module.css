@@ -1,0 +1,52 @@
+.habitContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    padding: 1rem 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.habitContainer img{
+    width: 20px;
+    margin-right: 10px;
+}
+.habitContainer h2 {
+    margin: 0;
+    color: #333;
+    font-size: 1.5rem;
+    display: inline;
+}
+
+.habitContainer p {
+    margin: 20px;
+    color: orangered;
+    font-size: 1rem;
+}
+
+.habitContainer button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.habitContainer button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+.habitContainer button:hover {
+    background-color: #FF5722;
+}
